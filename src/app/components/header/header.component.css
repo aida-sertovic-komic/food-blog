@@ -1,0 +1,32 @@
+.header {
+    background-color: var(--variable-color-light-pink);
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    max-height: 7rem;
+    padding: 0 5rem;
+}
+
+nav {
+    display: flex;
+    align-items: end;
+}
+
+a { 
+    color: var(--variable-color-charcoal);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 3rem;
+}
+
+a:hover {
+    color: var(--variable-color-dark-pink);
+}
+
+.active {
+    color: var(--variable-color-dark-pink)
+}
